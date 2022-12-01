@@ -1,0 +1,32 @@
+import java.util.Scanner;
+class Diwa
+{
+    public static void Sum(int a,int b)
+    {
+        int c=a+b;
+        int d=a-b;
+        System.out.println(c);
+        System.out.println(d);
+        
+    }
+   
+}
+
+
+
+
+
+
+
+
+public class SumDiff
+{
+    public static void main(String args[])
+    {Scanner sc=new Scanner(System.in);
+    int a=sc.nextInt();
+    int b=sc.nextInt();
+    Diwa d1=new Diwa();
+    d1.Sum(a,b);
+        //write your code
+    }
+}
