@@ -1,0 +1,25 @@
+
+import java.util.Scanner;
+public class Series
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        int a;
+        int n=sc.nextInt();
+        for(int i=1;i<=n;i++)
+        {if(i%2==0)
+            { a=(i*i)-2; 
+               System.out.printf("%d ",a); 
+            }
+            else
+            {
+               a=(i*i)+2; 
+               System.out.printf("%d ",a); 
+            }
+            
+            
+            
+        }
+    }
+}
