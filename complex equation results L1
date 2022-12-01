@@ -1,0 +1,27 @@
+//Code here
+import java.util.Scanner;
+public class complexequation
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        int c=50,h=30;
+       
+        // int b=sc.nextInt();
+        // int n=sc.nextInt();
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        int d=sc.nextInt();
+        int m=(2*c*a)/h;
+        int n=(2*c*b)/h;
+        int o=(2*c*d)/h;
+        double f=Math.sqrt(m);
+        double x=Math.sqrt(n);
+        double y=Math.sqrt(o);
+        System.out.printf("%.0f ",f);
+        System.out.printf("%.0f ",x);
+        System.out.printf("%.0f ",y);
+        
+        
+    }
+}
