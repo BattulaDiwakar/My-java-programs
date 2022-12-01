@@ -1,0 +1,28 @@
+//code here
+import java.util.Scanner;
+public class Game
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        int c=sc.nextInt();
+        int d=sc.nextInt();
+        int e=sc.nextInt();
+        int f=sc.nextInt();
+        int m=2*(a+b);
+        int n=2*(c+d);
+        int x=2*(e+f);
+        int y=(n+x);
+        if(y==m)
+        { System.out.println("Karthi can fix both painting");
+       
+           
+        }
+        else if(y<m||y>m)
+        System.out.println("Karthi cannot fix both painting");
+         
+        
+    }
+}
