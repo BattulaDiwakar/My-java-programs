@@ -1,0 +1,35 @@
+//Code here
+import java.util.Scanner;
+class java
+{
+    public static void Pro(int n)
+    {
+        
+        if(n<100)
+        {
+           double d=n*1.20;
+            System.out.printf("%.1f",d);
+        }
+        else if(n<=300&&n>=100)
+        {
+           double d=100*1.20+(n-100)*2;
+            System.out.printf("%.1f",d);
+        }
+        else if(n>300) 
+        {
+           double d=100*1.20+200 *2+(n-300)*3;
+            System.out.printf("%.1f",d);
+        }
+    }
+    
+}
+class Bill
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        java j1=new java();
+        j1.Pro( n);
+    }
+}
