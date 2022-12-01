@@ -1,0 +1,29 @@
+import java.util.Scanner;
+class Diwa
+{
+    public static void Lcm(int a,int b)
+    {
+        
+        int lcm=(a>b)?a:b;
+        while(true)
+        {
+           if(lcm%a==0&&lcm%b==0)
+           {
+               System.out.printf("LCM of %d and %d is %d",a,b,lcm);
+               break;
+           }++lcm;
+        }
+    }
+}
+public class Lcm
+{
+    public static void main(String[] args)
+    {Scanner sc=new Scanner(System.in);
+    int a=sc.nextInt();
+        int b=sc.nextInt();
+        Diwa d1=new Diwa();
+        d1.Lcm(a,b);
+        
+        
+    }
+}
