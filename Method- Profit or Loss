@@ -1,0 +1,30 @@
+import java.util.Scanner;
+class Diwa
+{
+    public static void Cal(float x,float y)
+    {
+ 
+    float a=12*y;
+    if(x>a)
+        System.out.printf("Loss : Rs.-%.2f",(x-a));
+        else if(x<a)
+        System.out.printf("Profit : Rs.%.2f",(a-x));
+    else if(x%12==0)
+    System.out.println("No profit nor loss");
+    }
+}
+
+
+public class Profit
+{
+    public static void main(String args[])
+    {Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the price of a dozen mangoes");
+    float x=sc.nextFloat();
+        System.out.println("Enter the price at which 1 mango is being sold");
+    float y=sc.nextFloat();
+    Diwa d1=new Diwa();
+    d1.Cal(x,y);
+       
+    }
+}
