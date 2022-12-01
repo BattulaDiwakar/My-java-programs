@@ -1,0 +1,33 @@
+import java.util.Scanner;
+class Diwa
+{
+    public static void Num(int a)
+    {int rem,sum=0,x;
+    x=a;
+    while(a>0)
+    {rem=a%10;
+    a=a/10;
+    sum=sum+rem;
+    }
+    //System.out.println(a+ " " + sum); //1729 19
+    if(x%sum==0)
+    System.out.println("Harshad Number");
+    else //if(a%sum!=0)
+    System.out.println("Not Harshad Number");//iam going to be rock woohoooooo!!!!!!
+    }
+    
+    
+    
+    
+}   
+public class Harshard
+{
+    public static void main(String[] args)
+    { 
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        Diwa d1=new Diwa();
+        d1.Num(a);
+        
+    }
+}
