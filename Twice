@@ -1,0 +1,17 @@
+import java.util.*;
+public class Twice {
+
+  public static int TwiceAsOld(int dadYears, int sonYears){
+      
+      int c=sonYears*2;
+      int d=dadYears-c;
+      return d;
+      
+    //write your logic here
+}
+public static void main(String[] args){
+Scanner sc=new Scanner(System.in);
+int dadYears=sc.nextInt();
+int sonYears=sc.nextInt();
+System.out.println(TwiceAsOld(dadYears,sonYears));
+}}
