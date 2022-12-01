@@ -1,0 +1,39 @@
+import java.util.Scanner;
+class java
+{
+    public static void roll(int a)
+    { 
+        System.out.printf("Roll Number Is:\n%d\n",a);
+    }
+    
+}
+class sub extends java
+{
+    public static void Sub1(int b)
+    {
+        System.out.printf("Subject 1:%d\n",b);
+    }
+     public static void Sub2(int c,int b)
+    {
+        System.out.printf("Subject 2:%d",c);
+        int d=b+c;
+        System.out.printf("\nTotal:%d",d);
+    } 
+   
+    
+}
+public class Student
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        int c=sc.nextInt();
+        java j1=new java();
+        sub s1=new sub();
+        j1.roll(a);
+        s1.Sub1(b);
+        s1.Sub2(c,b);
+    }
+}
