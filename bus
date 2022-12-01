@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class bus
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        int cap=sc.nextInt();
+        int on=sc.nextInt();
+        int wait=sc.nextInt();
+        int x=on+wait;
+        if(cap==x)
+    {
+        System.out.println("0");
+    }
+    else if(x>cap)
+    { int a=x-cap;
+        System.out.println(a);
+    }
+        
+        
+    }
+}
