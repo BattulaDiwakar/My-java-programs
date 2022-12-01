@@ -1,0 +1,21 @@
+//Code hereint 
+import java.util.Scanner;
+class java
+{
+    public static void Sum(int a,int b)
+    {
+       int c=0;
+       c=a+b;
+       System.out.println(""+c);
+    }
+}
+public class sotn
+{
+    public static void main(String args[])
+    {Scanner sc=new Scanner(System.in);
+    int a=sc.nextInt();
+    int b=sc.nextInt();
+     java j1=new java();
+  j1.Sum(a,b);
+    }
+}
