@@ -1,0 +1,19 @@
+//Code here
+import java.util.Scanner;
+public class perfectsquare
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        for(int i=2;i<b;i++)
+        {
+            int n=i*i;
+            if(n>a&&n<b)
+            {
+                System.out.printf("%d ",n);
+            }
+        }
+    }
+}
