@@ -1,0 +1,36 @@
+//Code here
+import java.util.Scanner;
+public class Basicmath
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        char s;
+        s=sc.next().charAt(0);
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        if(s=='+')
+        {   
+            int c=a+b;
+            System.out.println(""+c);
+        }
+         if(s=='-')
+        {    if(a>b){
+            int c=a-b;
+            System.out.println(""+c);}
+            else if(a<b){
+            int c=b-a;
+            System.out.println(""+c);}
+            }
+        if(s=='*')
+        {
+            int c=a*b;
+            System.out.println(""+c);
+        }
+        if(s=='/')
+        {
+            int c=a/b;
+            System.out.println(""+c);
+        }
+    }
+}
