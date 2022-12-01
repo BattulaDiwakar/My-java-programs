@@ -1,0 +1,22 @@
+//Code here
+import java.util.Scanner;
+public class Cricket
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter the number of matches played");
+        int a=sc.nextInt();
+    System.out.println("enter the number innings batted");
+    int b=sc.nextInt();
+    System.out.println("enter number of times notout");
+    int c=sc.nextInt();
+    System.out.println("enter runs scored");
+    int d=sc.nextInt();
+    float e=d/(b-c);
+     System.out.printf("batting average=%.1f",e);
+    
+        
+        
+    }
+}
