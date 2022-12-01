@@ -1,0 +1,17 @@
+//Code here
+import java.util.Scanner;
+public class Play
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        int c=sc.nextInt();
+        int d=sc.nextInt();
+        int n=(a-c);
+        int m=(b-d);
+        double e=Math.sqrt(n*n-m*m);
+        System.out.printf("%.1f",e);
+    }
+}
