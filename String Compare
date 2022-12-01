@@ -1,0 +1,19 @@
+//Code here
+import java.util.Scanner;
+public class String5
+{
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        String str=sc.next();
+        String str1=sc.next();
+        if(str.equals(str1))
+        {
+            System.out.println("Strings are same");
+        }
+        else
+        System.out.println("Strings are not same");
+    
+        
+    }
+}
