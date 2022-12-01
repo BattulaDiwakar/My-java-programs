@@ -1,0 +1,19 @@
+public class hello {
+  // Write a public static function `greet` that returns "hello world!"
+  public static String greet()
+  {
+      String str="hello world!";
+      return str;
+  }
+
+
+public static void main(String[] args)
+    
+    {
+        
+        
+        System.out.println(greet());
+       
+    }
+  
+}
