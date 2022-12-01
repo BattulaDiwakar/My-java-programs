@@ -1,0 +1,24 @@
+import java.util.Scanner;
+class Diwa
+{
+    public static void Mul(int a,int b)
+    {
+        int d=a*b;
+        int e=a/b;
+        int f=a%b;
+        System.out.println(d);
+        System.out.println(e);
+        System.out.println(f);
+    }
+}
+public class ProDiv
+{
+    public static void main(String args[])
+    {Scanner sc=new Scanner(System.in);
+     int a=sc.nextInt();
+     int b=sc.nextInt();
+     Diwa d1=new Diwa();
+     d1.Mul(a,b);
+        //write your code
+    }
+}
