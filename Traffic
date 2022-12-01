@@ -1,0 +1,29 @@
+import java.util.*;
+public class Traffic {
+
+     public static String updateLight(String current)
+     {
+    String a="";
+    if(current.equals("red"))
+    {
+         a="green";
+        
+    }
+    if(current.equals("green"))
+    {
+         a="yellow";
+       
+    }
+    if(current.equals("yellow"))
+    {
+        a="red";
+       
+    }
+ return a; }
+public static void main(String[] args){
+Scanner sc=new Scanner(System.in);
+String current=sc.nextLine();
+System.out.println(updateLight(current));
+}
+    
+}
