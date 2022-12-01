@@ -1,0 +1,24 @@
+import java.util.*;Century
+public class Century{
+  public static int century(int number) {
+    //write your logic here
+    int rem=0,a=0;
+    for(int i=0;i<=number;i++)
+    {
+        rem=number/100;
+        a=number%100;
+        
+    }if(a==0)
+    {
+    return rem;
+    }else{rem=rem+1;
+    return rem;
+    }
+    
+    }
+
+public static void main(String[] args){
+Scanner sc=new Scanner(System.in);
+int number=sc.nextInt();
+System.out.println(century(number));
+}}
