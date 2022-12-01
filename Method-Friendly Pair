@@ -1,0 +1,43 @@
+import java.util.Scanner;
+class java
+{public static void Pair(int a,int b)
+{
+int d=0,e=0,f=0,g=0;
+    
+    for(int i=1;i<=a;i++)
+    {
+        if(a%i==0)
+        {
+            d+=i;
+           e=d/a;
+             } 
+    }
+    
+    for(int i=1;i<=b;i++)
+    {
+        if(b%i==0)
+        {
+            f+=i;
+           g=f/b;
+             } 
+    }
+    
+    if(e==g)
+    System.out.println("Friendly Pair");//friendly pair will come <3
+    else
+     System.out.println("Not Friendly Pair");
+
+}
+}
+
+public class Friendly
+{
+    public static void main(String[] args)
+    {Scanner sc=new Scanner(System.in);
+    int a=sc.nextInt();
+    int b=sc.nextInt();
+    java j1=new java();
+    j1.Pair(a,b);
+        
+    }
+}
