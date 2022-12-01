@@ -1,0 +1,24 @@
+import java.util.*;
+public class Negative{
+public static int makeNegative(final int x) {
+    int a=0;
+if(x>0)
+{
+    a=0-x;
+}
+if(x==0)
+{
+   a=x;
+}
+if(x<0)
+{
+    a=x;
+}return a;
+    
+     }
+  
+public static void main(String[] args){
+Scanner sc=new Scanner(System.in);
+int x=sc.nextInt();
+System.out.println(makeNegative(x));
+}}
