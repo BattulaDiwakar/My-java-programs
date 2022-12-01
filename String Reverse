@@ -1,0 +1,20 @@
+//Code here
+import java.util.Scanner;
+import java.io.*;
+import java.lang.*;
+public class String4
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        // StringBuilder str2= new StringBuilder();
+        String str=sc.next();
+        String rev="";
+       for(int i=str.length();i>0;i--)
+       {
+           rev=rev+str.charAt(i-1);
+       }
+       System.out.println(""+rev);
+    
+    }
+}
