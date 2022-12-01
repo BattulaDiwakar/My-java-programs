@@ -1,0 +1,32 @@
+import java.util.Scanner;
+public class Narnia
+{
+    public static void main(String args[])
+    {int sum=0,rem;
+        Scanner sc=new Scanner(System.in);
+    int n=sc.nextInt();
+    
+    if(n<100)
+    {
+        while(n>0)
+    {
+        rem=n%10;
+        sum=sum+rem;
+        n=n/10;
+    }  System.out.println(""+sum);
+    } 
+        
+        if(n>100)
+        {
+           rem=n%10; 
+           n=n/10;
+           System.out.println(n+rem);
+        }
+        
+        
+    }
+    
+    
+        //write your code
+    
+}
